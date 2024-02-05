@@ -79,4 +79,4 @@
    java -jar --spring.config.location=application.yml {程序名称}-{程序版本}.jar
    ```
 ### 备注
-严禁私自修改，二次售卖分发
+未经授权，严禁私自修改，二次售卖分发，如有所需联系QQ: 3615331065
