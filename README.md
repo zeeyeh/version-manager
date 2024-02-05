@@ -2,27 +2,27 @@
 使用Spring Boot 3 + Spring Data Jpa + Redis技术栈的程序后端版本及授权管理后端程序
 ### 使用方法
 1. 克隆本仓库
-   '''shell
+   ```shell
    git clone https://github.com/zeeyeh/version-manager
-   '''
+   ```
 2. 进入目录
-  '''shell
+   ```shell
    cd version-manager
-  '''
+   ```
 3. 打包项目
-   '''shell
+   ```shell
    mvn clean build
-   '''
+   ```
 4. 进入目录
-   '''shell
+   ```shell
    cd build && cd libs
-   '''
+   ```
 5. 创建并修改配置文件
-   '''shell
+   ```shell
    touch application.yml
-   '''
+   ```
 6. 复制下面代码到'application.yml'文件中
-   '''yaml
+   ```yaml
      server:
       port: 3650
     
@@ -73,10 +73,10 @@
         port: 6379
         password: root
         database: 0
-   '''
+   ```
 7. 启动程序
-   '''shell
+   ```shell
    java -jar --spring.config.location=application.yml {程序名称}-{程序版本}.jar
-   '''
+   ```
 ### 备注
 严禁私自修改，二次售卖分发
